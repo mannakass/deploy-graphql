@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.App {
+    background-color: #F9F5E7;
+}
+
+.profile-info {
+    background-color: #A7727D;
+    color: #F9F5E7;
+    padding: 40px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+.profile-data {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.profile-current-level-div,
+.profile-xp-amount-div,
+.profile-username-div {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.profile-username-div {
+    margin-bottom: 30px;
+    font-size: x-large;
+}
+
+
+.profile-level-text,
+.profile-xp-text {
+    font-weight: bolder;
+}
+
+
+.line-graph,
+.task-graph {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.line-graph-title,
+.task-graph-title,
+.task-graph-subcomment {
+    padding-left: 75px;
+    margin-top: 50px;
+}
+
+.task-graph-subcomment {
+    margin: 0;
+    font-size: x-small;
+}
